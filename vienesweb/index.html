@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vienes | Agencia Inmobiliaria</title>
+    <link rel="stylesheet" href="./style/estilos.css">
+</head>
+<body class="index-page">
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo/logo-vienes.png" alt="Vienes Logo"></a>
+            </div>
+            <div class="nav-container">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./paginas/compras.html">Comprar</a></li>
+                        <li><a href="./paginas/alquiler.html">Alquilar</a></li>
+                        <li><a href="#">Publicar</a></li>                    
+                    </ul>
+                </nav>
+                <div class="contact">    
+                    <button onclick="window.location.href='./paginas/perfil.html'">Ingresar</button>                                                                      
+                </div>
+            </div>
+        </div>                                                                                                                                     
+    </header>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>La nueva Aventura<br> empieza en tu nuevo Hogar</h2>
+            <div class="search-bar">
+                <div class="search-options">
+                    <button id="comprar" class="active">Comprar</button>
+                    <button id="alquilar">Alquilar</button>
+                </div>
+                <div class="search-inputs">
+                    <select>
+                        <option value="">Tipo de Propiedad</option>
+                        <option value="departamento">Departamento</option>
+                        <option value="oficina">Oficina</option>
+                        <option value="casa">Casa</option>
+                        <option value="local">Local</option>
+                    </select>
+                    <input type="text" placeholder="Distrito o Características">
+                    <button>Buscar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="invite-agents">
+        <div class="container">
+            <div class="invite-content">
+                <div class="invite-text">
+                    <h2>¿Eres Agente Inmobiliario?</h2>
+                    <p>Llega a más clientes interesados en comprar o alquilar publicando tus inmuebles en nuestro sitio web de forma gratuita.</p>
+                    <p>Podrás mostrar imágenes, videos, recorridos virtuales, mapas y mucho más.</p>
+                </div>
+                <div class="invite-image">
+                    <img src="./img/info/d2550104-cd5a-49d7-a738-0a6b827aaea5.png" alt="Invita a Agentes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="additional-content">
+        <div class="container">
+            <!-- Aquí puedes agregar el contenido adicional -->
+        </div>
+    </section>
+
+    <section class="agent-testimonials">
+        <div class="container">
+            <h2>Agentes Inmobiliarios que recomiendan nuestro sitio web</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./img/agentes/agente-inmobiliario.png" alt="Agente 1">
+                    <p>"Cerré 4 alquileres de departamentos en un mes gracias al alcance del sitio web"</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./img/agentes/Un-asesor-inmobiliario-exitoso-busca-ser-aliado-del-cliente.png" alt="Agente 2">
+                    <p>"Desde la página de Vienes puedo mostrar toda la cartera de propiedades a mis clientes"</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./img/agentes/smiling-confident-businesswoman-posing-with-arms-folded-Ancho-Maximo-2400-Altura-Maxima-1800.png" alt="Agente 3">
+                    <p>"Con la página de Vienes ahorro en costos de publicación"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="./img/logo/Recurso 1Imagotipo1.png" alt="Vienes Logo">
+            </div>
+            <div class="footer-nav">
+                <a href="#">Comprar</a>
+                <a href="#">Alquilar</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/hero.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+</html>
